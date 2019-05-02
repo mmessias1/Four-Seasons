@@ -1,0 +1,18 @@
+Feature: Private getaways
+
+  Scenario: Four Seasons Private Retreats
+    Given I want a quick getaway, I navigate to the four seasons website
+    When I get to the homepage, I see private retreats
+    And I like the sound of this so I click the link
+    When I navigate to the private retreats page I scroll down
+    And I start browsing the page and notice one-of-a-kind experience
+    Then I begin scroll right/left to view some of the pictures
+
+    Given I've had enough of looking at the pictures
+    And I now want to book my vacation
+    And I select the beach & seaside style
+    And I begin to browse the page
+    When I notice Indonesia I select it's property details
+    And I also notice Thailand so I select it's property details
+    And I also notice Vietnam so I select it's property details
+    Then I look at all my options and close my broswer
